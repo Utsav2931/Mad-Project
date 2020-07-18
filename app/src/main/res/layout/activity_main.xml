@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#333333"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:text="Log In"
+        android:textColor="#DAD9D9"
+        android:textSize="50dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="277dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="340dp"
+        android:drawableLeft="@drawable/email"
+        android:ems="10"
+        android:hint=" email"
+        android:inputType="textPersonName"
+        android:textColor="#DAD9D9"
+        android:textColorHint="#DAD9D9"
+        android:textSize="16dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="277dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="244dp"
+        android:drawableLeft="@drawable/password"
+        android:ems="10"
+        android:hint=" password"
+        android:inputType="textPassword"
+        android:textColor="#DAD9D9"
+        android:textColorHint="#DAD9D9"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="158dp"
+        android:background="@drawable/rounded_button"
+        android:text="LOG IN"
+        android:textColor="#DAD9D9"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="84dp"
+        android:background="#333333"
+        android:text="Don't have an acoount register here"
+        android:stateListAnimator="@null"
+        android:textAllCaps="false"
+        android:textColor="#DAD9D9"
+        android:textSize="16dp" />
+
+</RelativeLayout>
